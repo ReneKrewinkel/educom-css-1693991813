@@ -48,3 +48,22 @@ a {color:aquamarine}
     margin-top: 200px;
     margin-bottom: 20px;
 }
+
+.font {
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: pink;
+    text-transform: uppercase;
+}
+
+.square {
+    width: 50%;
+    background-color: blue;
+    border: 10px solid pink;
+}
+
+.space {
+    padding: 50px;
+    margin: auto;
+}
