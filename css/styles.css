@@ -21,3 +21,18 @@
 }
 
 a {color:aquamarine}
+
+.cascading-parent {
+    font-weight: bold;
+    font-size: 50px;
+    color: #FF0;
+}
+
+.cascading-child {
+    background-color: blue;
+    color:rgb(249, 12, 186) !important;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+
+}
