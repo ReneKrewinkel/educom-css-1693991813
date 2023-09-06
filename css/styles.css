@@ -22,7 +22,7 @@
 
 a {color:aquamarine}
 
-.cascading-parent {
+.cascading-parent h2{
     font-weight: bold;
     font-size: 50px;
     color: #FF0;
@@ -31,8 +31,20 @@ a {color:aquamarine}
 .cascading-child {
     background-color: blue;
     color:rgb(249, 12, 186) !important;
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
     padding: 50px;
+    margin: 50px;
 
+}
+
+.cascading-parent a{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    color: #FFF;
+    background-color: blue;
+    padding:30px;
+    margin-top: 200px;
+    margin-bottom: 20px;
 }
