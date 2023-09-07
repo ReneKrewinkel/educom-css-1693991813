@@ -147,10 +147,10 @@ a:active {
 }
 
 
-.button-container a {
+.button-container {
     width: 200px;
     padding:10px;
-    margin:200px;
+    margin:100px;
     color: #fff;
     background-color: #F00;
 
@@ -176,13 +176,17 @@ a:active {
 }
 
 .button2 {
-    width: 20px;
-    height: 100px;
+    width: 100px;
     margin: 100px;
+    
+}
+
+.button2 a {
+    font-size: 32px;
     padding: var(--big-box);
     color: var(--bright-yellow);
     background-color: var(--orange-yellow);
-
+    text-align: center;
     border-radius: 20px;
 
     /*shadow*/  
@@ -192,4 +196,43 @@ a:active {
 
     /*no underline*/
     text-decoration: none;
+}
+
+.button2 a:hover {
+    background-color: var(--sky-blue);
+    color: var(--night-blue);
+}
+
+.button3 {
+    width:200px;
+    margin-top:200px;
+    margin-left: 100px;
+
+}
+
+.button3 a {
+    font-size: 32px;
+    padding: var(--big-box);
+    color: var(--bright-yellow);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(171,80,169,1) 48%, rgba(252,70,107,1) 88%);
+    text-align: center;
+    border-radius: 20px;
+
+    /*shadow*/  
+    -webkit-box-shadow: 0px 0px 70px 15px rgba(0,51,255,1);
+    -moz-box-shadow: 0px 0px 70px 15px rgba(0,51,255,1);
+    box-shadow: 0px 0px 70px 15px rgba(0,51,255,1);
+
+    /*no underline*/
+    text-decoration: none;
+    
+}
+
+.button3 a:hover {
+    background: radial-gradient(circle, rgba(252,70,107,1) 0%, rgba(171,80,169,1) 48%,  rgba(63,94,251,1) 88%);
+    color: var(--night-blue);
+    /*shadow*/  
+    -webkit-box-shadow: 0px 0px 70px 15px rgba(252,70,107,1);
+    -moz-box-shadow: 0px 0px 70px 15px rgba(252,70,107,1);
+    box-shadow: 0px 0px 70px 15px rgba(252,70,107,1);
 }
