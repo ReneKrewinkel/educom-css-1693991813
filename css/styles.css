@@ -1,3 +1,52 @@
+:root {
+    /* Fonts */
+    --regular: "Arial";
+
+    /* Colors */
+    --dark-red: #ff000051;
+    --light-red: #ff5f5f;
+
+    --purple: purple;
+    --pink: pink;
+
+    --sky-blue: rgb(173, 232, 255);
+    --night-blue: rgb(0, 0, 88);
+    
+    /* spacing */
+    --big-box: 50px;
+    --small-box: 20px;
+
+    /* borders */
+    --big-border: 10px;
+    --small-border: 3px;
+    
+    /*width*/
+    --half: 50%;
+    --quarter: 25%;
+}
+
+/*usage*/
+h1 {
+    font-family: var(--regular);
+    color: var(--light-red);
+    padding: var(--big-box);
+    background-color: var(--dark-red);
+    border: var(--big-border) solid var(--sky-blue);
+    width: var(--half);
+    margin: auto;
+
+}
+
+h2 {
+    font-family: var(--regular);
+    color: var(--sky-blue);
+    padding: var(--small-box);
+    background-color: var(--night-blue);
+    border: var(--big-border) solid var(--pink);
+    width: var(--quarter);
+    margin: auto;
+}
+
 .red-square {
     width: 80px;
     height: 80px;
